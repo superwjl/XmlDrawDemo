@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:radius="5px"
+        android:topLeftRadius="5px"
+        android:topRightRadius="5px"
+        android:bottomLeftRadius="5px"
+        android:bottomRightRadius="5px"
+        />
+    <gradient
+        android:angle="45"
+        android:centerColor="@color/colorAccent"
+        android:centerX="10"
+        android:centerY="10"
+        android:startColor="@color/colorAccent"
+        android:endColor="@color/colorPrimary"
+        android:type="linear"
+        android:useLevel="true"
+        />
+    <!-- "linear" | "radial" | "sweep" -->
+    <padding
+        android:left="10px"
+        android:right="10px"
+        android:top="10px"
+        android:bottom="10px"
+        />
+    <size
+        android:width="100px"
+        android:height="100px"
+        />
+    <solid
+        android:color="@color/colorPrimaryDark"
+        />
+    <stroke
+        android:width="2px"
+        android:color="#0f0"
+        android:dashGap="10px"
+        android:dashWidth="5px"
+        />
+</shape>

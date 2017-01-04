@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/shape_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="shape-line"
+        />
+    <Button
+        android:id="@+id/shape_rect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="shape-rectangle"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/shape_oval"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="shape-oval"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/shape_ring"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="shape-ring"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
